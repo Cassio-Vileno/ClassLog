@@ -6,7 +6,7 @@ import { InputPassword } from "../../components/atom/inputPassword";
 import Typography from "../../components/atom/Typography";
 import { ButtonGhost } from "../../components/molecule/ButtonGhost";
 import { ButtonPrimary } from "../../components/molecule/ButtonPrimary";
-import { LoginFormData, loginSchema } from "../../schemas/schemas";
+import { LoginFormData, loginSchema } from "../../schemas/loginSchema";
 import { theme } from "../../theme/defalt.theme";
 import { Container, ContainerButton, ContainerButtonRegister, ContainerForm } from "./styled";
 

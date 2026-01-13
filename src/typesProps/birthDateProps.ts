@@ -1,8 +1,8 @@
-// import { TextInputProps } from "react-native";
+import { TextInputProps } from "react-native";
 
-// export type BrithDateProps = TextInputProps & {
-//   placeholder?: string;
-//   value?: Date;
-//   onChange: (date: Date) => void;
-//   error: any;
-// }
+export type BrithDateProps = Omit<TextInputProps, 'value' | 'onChange'> & {
+  placeholder?: string;
+  value: Date;
+  onChange: (date: Date) => void;
+  error: any;
+}

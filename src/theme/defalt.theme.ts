@@ -14,7 +14,7 @@ export const theme = {
   input: {
     width: 100,
     fontSize: 13,
-    padding: 10,
+    padding: 15,
     backgroundColor: "#F6F7FA",
     borderRadius: 8,
     borderColor: { default: "#ffffff", danger: "#ff0000" },

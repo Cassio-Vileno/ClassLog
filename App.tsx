@@ -2,7 +2,7 @@ import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import LogIn from './src/screen/LogIn/inde';
+import { Register } from './src/screen/register';
 // import { Register } from './src/screen/register';
 
 export default function App() {
@@ -25,8 +25,8 @@ export default function App() {
 
   return (
     <SafeAreaProvider>
-      {/* <Register /> */}
-      <LogIn />
+      <Register />
+      {/* <LogIn /> */}
     </SafeAreaProvider>
   );
 }
